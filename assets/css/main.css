@@ -1747,6 +1747,16 @@ input, select, textarea {
 			text-transform: none !important;
 		}
 
+		.fab:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+
+		}
+
 		.icon > .label {
 			display: none;
 		}
@@ -2191,4 +2201,13 @@ input, select, textarea {
 		height: 100%;
 		/* border: 1px solid darkgrey;
 		box-shadow: 2px 2px #888888; */
+	}
+
+	#contact > header {
+		text-align: center;
+
+	}
+
+	#contact > header > a {
+
 	}
