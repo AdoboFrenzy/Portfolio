@@ -13,11 +13,17 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
 		 crossorigin="anonymous">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Include the library. -->
+		<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+		
+		<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+		<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper-->
 			<div id="wrapper">
+			<div id="bg"></div>
 
 				<!-- Nav -->
 					<nav id="nav">
@@ -44,55 +50,58 @@
 							</article>
 
 						<!-- Work -->
-							<article id="work" class="panel">
-								<header>
-									<h2>Recent Projects</h2>
-								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
-								</p>
-								<section>
-									<div id="row" class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://lootrify.herokuapp.com/" target="_blank" class="image fit"><img src="images/splash_mascot.png" alt=""><span id="reveal">Lootrify</span></a>
+							<article id="work" class="panel me">
+								<div id="workme">
+									<header>
+										<h2>Recent Projects</h2>
+									</header>
+									<p>
+										Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
+										Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+										luctus elit eget interdum.
+									</p>
+									<section>
+										<div id="row" class="row">
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="https://lootrify.herokuapp.com/" target="_blank" class="image fit"><img src="images/splash_mascot.png" alt=""><span id="reveal">Lootrify</span></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="https://adobofrenzy.github.io/TetrisPuzzle/" target="_blank" class="image fit"><img src="images/tetris.jpg" alt=""><span id="reveal">Tetris Puzzle</span></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="https://stormy-everglades-86966.herokuapp.com/#/" target="_blank" class="image fit"><img src="images/parkingsniffer.jpg" alt=""><span id="reveal">Parking Sniffer</span></a>
+											</div>
+											<!-- <div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""><span>Lootrify</span></a>
+											</div> -->
+											<!-- <div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+											</div>
+											<div class="col-4 col-6-medium col-12-small">
+												<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+											</div> -->
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://adobofrenzy.github.io/TetrisPuzzle/" target="_blank" class="image fit"><img src="images/tetris.jpg" alt=""><span id="reveal">Tetris Puzzle</span></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="https://stormy-everglades-86966.herokuapp.com/#/" target="_blank" class="image fit"><img src="images/parkingsniffer.jpg" alt=""><span id="reveal">Parking Sniffer</span></a>
-										</div>
-										<!-- <div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""><span>Lootrify</span></a>
-										</div> -->
-										<!-- <div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div> -->
-									</div>
-								</section>
+									</section>
+
+								</div>
 							</article>
 
 						<!-- LinkedIn -->
@@ -106,28 +115,37 @@
 
 						<!-- Github -->
 							<article id="github" class="panel me">
-								<a href="#github" class="github pic">
-									<a href="https://github.com/AdoboFrenzy" target="_blank" class="github-link">
+								<a href="https://github.com/AdoboFrenzy" target="_blank" class="github pic">
+									<!-- <a href="https://github.com/AdoboFrenzy" target="_blank" class="github-link">
 										<img id="githubme" src="images/github_me.jpg" alt="" />
-									</a>
+									</a> -->
+									<!-- Prepare a container for your calendar. -->
+									<div class="calendar">
+										<!-- Loading stuff -->
+										- One Moment Please -
+									</div>
+									
+									<script>
+										GitHubCalendar(".calendar", "AdoboFrenzy");
+									</script>
 								</a>
 							</article>
 
 						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
+							<article id="contact" class="panel me">
+								<div>
 									<h2>Contact Information</h2>
 
 									<br/>
 
 									<a class="fas fa-envelope" href="mailto:datrupnoy@gmail.com">
-										Google E-Mail
+										G-Mail
 									</a><br/>
 
 									<a class="fas fa-phone">
 										(925) 577-4481
 									</a>
-								</header>
+								</div>
 								
 
 								<!-- <form action="mailto:datrupnoy@gmail.com" method="post">
