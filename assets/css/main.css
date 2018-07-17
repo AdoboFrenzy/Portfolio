@@ -2315,6 +2315,7 @@ input, select, textarea {
 
 		background: #348cb2 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
+		/* width: 800px */
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -2389,7 +2390,7 @@ input, select, textarea {
 
 	#bg {
 		background-size: 800px auto;
-		width: 6750px;
+		width: 7200px;
 	}
 
 	
