@@ -1865,6 +1865,52 @@ input, select, textarea {
 
 		}
 
+	.col-4 a span {
+
+		position: absolute;
+		background: #222222;
+		color: #ffffff;
+		font-size: 0.8em;
+		height: 2.25em;
+		line-height: 2.25em;
+		top: 42%;
+		opacity: 0;
+		-moz-transition: opacity .25s ease-in-out;
+		-webkit-transition: opacity .25s ease-in-out;
+		-ms-transition: opacity .25s ease-in-out;
+		transition: opacity .25s ease-in-out;
+		width: 7em;
+		text-align: center;
+	}
+
+	.col-4 a span:after {
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: -0.4em;
+		left: 40%;
+		border-top: solid 0.6em #222222;
+		border-left: solid 0.6em transparent;
+		border-right: solid 0.6em transparent;
+	}
+
+	#row div a:hover span {
+		opacity: 1.0;
+	}
+
+	#row div {
+		max-height: 250px;
+		overflow: hidden;
+		
+	}
+
+	#row div a img {
+		width: 100%;
+		height: 100%;
+		/* border: 1px solid black; */
+		/* box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.4); */
+	}
+
 /* Wrapper */
 
 	#wrapper {
@@ -2210,4 +2256,12 @@ input, select, textarea {
 
 	#contact > header > a {
 
+	}
+
+	#work section img {
+		opacity: 0.60;
+	}
+
+	#work section img:hover {
+		opacity: 1.0;
 	}
