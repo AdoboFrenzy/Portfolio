@@ -1767,6 +1767,7 @@ input, select, textarea {
 		text-align: center;
 		height: 4.25em;
 		cursor: default;
+	
 	}
 
 		#nav a {
@@ -1918,7 +1919,7 @@ input, select, textarea {
 		margin: 0 auto;
 		min-height: 100vh;
 		max-width: 100%;
-		padding: 4em 0;
+		padding: 0 0 5em 0;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2195,17 +2196,31 @@ input, select, textarea {
 				}
 
 /* Footer */
+	#footer {
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%); */
+		bottom: 2.5%;
+		cursor: default;
+		color: white;
+		height: 6em;
+		left: 0;
+		line-height: 8em;
+		position: fixed;
+		text-align: center;
+		width: 100%;
+	}
 
 	#footer {
-		color: rgba(255, 255, 255, 0.45);
+		color: white;
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
 	}
 
 		#footer a {
-			color: #ddd;
-			color: rgba(255, 255, 255, 0.65);
+			color: white;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
 			-ms-transition: color .25s ease-in-out;
@@ -2243,6 +2258,8 @@ input, select, textarea {
 			}
 
 		}
+
+
 
 	#home header {
 		width: 90%;
