@@ -23,6 +23,8 @@
 		#nav a span {
 			top: 0;
 			opacity: 1.0;
+			background-color: red;
+			
 		}
 
 			#nav a span:after {

@@ -1814,6 +1814,8 @@ input, select, textarea {
 			#nav a span {
 				display: block;
 				position: absolute;
+				font-family: "Source Sans Pro", sans-serif;
+				font-weight: bold;
 				background: #222222;
 				color: #ffffff;
 				top: -2.75em;
