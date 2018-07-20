@@ -2292,7 +2292,7 @@ input, select, textarea {
 	}
 
 	#work section img {
-		opacity: 0.60;
+		opacity: 0.8;
 	}
 
 	#work section img:hover {
@@ -2395,4 +2395,12 @@ input, select, textarea {
 		width: 7200px;
 	}
 
-	
+	#icons {
+		margin-top: 32px;
+		border-bottom: 1px solid #DDDDDD;
+	}
+
+	[class*="devicon-"] {
+		margin: 0 20px;
+		font-size: 72px;
+	}
