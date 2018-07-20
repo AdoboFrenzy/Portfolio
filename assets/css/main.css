@@ -2301,10 +2301,10 @@ input, select, textarea {
 
 
 	#bg {
-		-moz-animation: bg 75s linear infinite;
-		-webkit-animation: bg 75s linear infinite;
-		-ms-animation: bg 75s linear infinite;
-		animation: bg 75s linear infinite;
+		-moz-animation: bg 120s linear infinite;
+		-webkit-animation: bg 120s linear infinite;
+		-ms-animation: bg 120s linear infinite;
+		animation: bg 120s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
