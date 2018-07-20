@@ -2400,6 +2400,10 @@ input, select, textarea {
 		border-bottom: 1px solid #DDDDDD;
 	}
 
+	#icons a {
+		text-decoration: none;
+	}
+
 	[class*="devicon-"] {
 		margin: 0 20px;
 		font-size: 72px;
